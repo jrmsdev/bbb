@@ -13,6 +13,7 @@ devel:
 		--hostname devel.bbb.jrmsdev \
 		--read-only \
 		-v $(PWD)/src:/home/bbb/src \
+		-v $(PWD)/vendor:/home/bbb/vendor \
 		jrmsdev/bbb:devel
 
 .PHONY: prune
