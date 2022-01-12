@@ -1,6 +1,6 @@
 .PHONY: build
 build:
-	@docker build --rm --tag jrmsdev/bbb:base ./docker
+	@docker build --rm --tag jrmsdev/bbb:base ./docker/base
 
 .PHONY: prune
 prune:
