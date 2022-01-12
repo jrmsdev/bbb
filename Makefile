@@ -6,6 +6,7 @@ build:
 		--build-arg BBB_GID=$$(id -g) \
 		--build-arg BBB_UMASK=$$(umask) \
 		./docker/devel
+	@git submodule update --init
 
 .PHONY: devel
 devel:
